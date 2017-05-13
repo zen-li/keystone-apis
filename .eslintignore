@@ -1,0 +1,4 @@
+**/dist/**
+**/es5/**
+**/node_modules/**
+**/webpack.config*.js

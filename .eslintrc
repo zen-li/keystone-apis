@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "spaced-comment": [0, "always"],
+    "func-names": 0,
+    "indent": [2, 4],
+    "no-console": 0,
+    "semi": [2, "never"],
+    "space-before-function-paren": ["error", "always"],
+    "template-curly-spacing": ["error", "always"],
+    "no-underscore-dangle": 0,
+    "no-param-reassign": 0,
+    "arrow-body-style": ["error", "always"],
+    "max-len": ["error", 120, 4, { "ignoreUrls": true, "ignoreTrailingComments": true }]
+  },
+  "env": {
+    "browser": false,
+    "node": true
+  }
+}
